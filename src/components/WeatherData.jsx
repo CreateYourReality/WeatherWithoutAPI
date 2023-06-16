@@ -9,7 +9,6 @@ const WeatherData = () => {
     const [temp,setTemp] = useState("");
     const [wind,setWind] = useState("");
     const [city,setCity] = useState("Berlin");
-    const test = "";
 
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}`;
     const iconUrl = `https://openweathermap.org/img/wn/${icon}.png`
